@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    --ff-texting: 'Roboto', sans-serif;
+    --fc-texting: #E1E1E6;
+}
+body {
+    background: url('../img/mountains1.png');
+    background-repeat: no-repeat;
+    background-size: 192rem 97rem;   
+}
+body,
+button {
+    font-family: var(--ff-texting);
+    color: var(--fc-texting);    
+}
+nav {    
+    display: flex;
+    align-items: center;
+    padding: 4rem 71.9rem 4rem 7.2rem;
+    gap: 4.5rem;
+}
+ul {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    list-style: none;
+    display: flex;
+    gap: 4.5rem;
+}
+ul li:hover {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+    margin: 30rem auto 2.4rem;
+}
+button {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    width: 19.5rem;
+    height: 4.8rem;    
+    border: .2rem solid #FFFFFF;
+    border-radius: .5rem;
+    background: transparent;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover {
+    width: 21rem;
+    height: 6rem;
+    font-size: 1.6rem;
+}
+
+/* Universo, Exploração e Error(404)*/
+
+#title {
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 125%;
+    margin: 18rem 53rem 0 10.2rem;
+}
+#paragraph,
+#explorer {
+    font-weight: 400;
+    font-size: 2.2rem;
+    line-height: 160%;
+    margin: 1.6rem 53rem 0 10.2rem;
+}
+#error {
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.home-background {
+    background: url('../img/mountains1.png');
+    background-size: 192rem 97rem;
+}
+.universe-background {
+    background-image: url("../img/mountains2.png");
+    background-size: 192rem 97rem;
+}
+.exploration-background {
+    background-image: url("../img/mountains3.png");
+    background-size: 192rem 97rem;
+}
